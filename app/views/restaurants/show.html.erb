@@ -1,0 +1,8 @@
+<div class="container p-4">
+  <h2 class="btn btn-outline-primary m-3 white"><%= link_to "Back to all", restaurants_path %></h2>
+  <div class="card p-3">
+    <h3> <%= @restaurant.name %> </h3>
+    <h4> <%= @restaurant.category %> </h4>
+    <p> <%= @restaurant.address %> - <%= @restaurant.phone_number %> </p>
+  </div>
+</div>
